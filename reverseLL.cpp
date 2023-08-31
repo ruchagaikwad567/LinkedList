@@ -34,6 +34,7 @@ Node* reverse(Node*head)
         curr=next;
         
     }
+    head=prev;
     return prev;
 
 }

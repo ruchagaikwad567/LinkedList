@@ -1,0 +1,1 @@
+{"name":"Local: deleteGreaterRightNode","url":"d:\\LinkedList\\deleteGreaterRightNode.cpp","tests":[{"id":1693462955387,"input":"\n8\n12 15 10 11 5 6 2 3","output":"15 11 6 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\LinkedList\\deleteGreaterRightNode.cpp","group":"local","local":true}
