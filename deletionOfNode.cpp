@@ -15,11 +15,15 @@ struct Node
 
 Node* deleteAtBegin(Node*head)
 {
+    if(head==NULL)
+    {
+        return NULL;
+    }
     
     Node*temp=head;
     head=head->next;
-    delete[] temp;
-    temp=NULL;
+    delete[]temp;
+    
     return head;
 }
 
@@ -75,6 +79,6 @@ int main()
     head->next->next->next->next=new Node(5);
 
     //Node*ans=deleteNode(head,3);
-    deleteInMiddle(head,2);
-    printLL(head);
+    Node*ans=deleteAtBegin(head);
+    printLL(ans);
 }
