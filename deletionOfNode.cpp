@@ -1,10 +1,9 @@
-#include<bits/stdc++.h>
-using namespace std;
+
 
 #include<bits/stdc++.h>
 using namespace std;
 
-//Given a singly linked list and an integer x.Delete xth node from the singly linked list.
+
 
 struct Node
 {
